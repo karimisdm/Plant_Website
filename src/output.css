@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
