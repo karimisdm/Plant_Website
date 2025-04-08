@@ -1,7 +1,13 @@
-const navMenu = document.getElementById("nav-menu");
-const navLink = document.querySelectorAll(".nav-link");
-const hamburger = document.getElementById("hamburger");
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
 
-hamburger.addEventListener("click", ()=>{
-    navMenu.classList.toggle("left-[0]");
-})
+    hamburger.addEventListener("click", () => {
+        if (navMenu.style.left === "0%") {
+            navMenu.style.left = "-100%";
+        } else {
+            navMenu.style.left = "30%";
+            navMenu.style.top="30%";
+        }
+    });
+});

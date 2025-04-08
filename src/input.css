@@ -11,3 +11,9 @@ body {
 .nav-link:hover{
     @apply text-yellow-300;
 }
+section {
+    @apply py-20 md:py-28;
+}
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
