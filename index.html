@@ -54,8 +54,8 @@
     <main>
         <section id="home">
             <div class="container">
-                <div>
-                    <div>
+                <div class="flex flex-col items-center gap-5 lg:flex-row">
+                    <div class="w-full spaca-y-5 lg:w-1/2">
                         <h1>
                             <span class="text-yellow-500">Plants</span> make a
                             <br/>
@@ -63,42 +63,40 @@
                               <span class="text-yellow-500">impact</span> on <br/>
                                your environment
                         </h1>
-                        <p>
+                        <p class="text-slate-300">
                             Most flowering plants thrive in well-draining soil enriched with organic matter. Before planting, incorporate 2-3 inches of compost into your garden bed.
                         </p>
-                        <div>
-                            <button>
+                        <div class="flex flex-col gap-2 sm:flex-row md:gap-4
+                        lg:pt-5 xl:pt-10">
+                            <button class="btn">
                                 <span>Shop Now</span>
                                 <i class="ri-leaf-line"></i>
                             </button>
-                            <button>
+                            <button class="btn btn_outline">
                                 <span>Know More</span>
                                 <i class="ri-leaf-line"></i>
                             </button>
                         </div>
-                        <p>
+                        <p class="text-xs text-slate-300">
                             You will get 30-days free trial.
                         </p>
-                        <div>
-                            <i class="ri-instagram-line"></i>
-                            <i class="ri-facebook-fill"></i>
-                            <i class="ri-linkedin-fill"></i>
+                        <div class=" flex items-center gap-5 text-lg">
+                            <i class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                            <i class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                            <i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="w-full relative lg:w-1/2">
                         <img src="./assests/images/flower vase.png" alt="home-image" width="200px">
-                        <div>
-                            <i class="ri-leaf-line"></i>
+                        <div class="absolute -top-10 right-0 opacity-30">
+                            <i class="ri-leaf-line text-6xl text-yellow-500"></i>
                         </div>
-                        <div>
-                            <i class="ri-flower-line"></i>
+                        <div class="absolute bottom-0 left-0 opacity-30">
+                            <i class="ri-flower-line text-6xl text-yellow-500"></i>
                         </div>
-                        <div>
-                            <i class="ri-leaf-line"></i>
-                        </div>
-                        <div>
-                            <i class="ri-plant-line"></i>
+                        <div class="absolute -top-10 left-5 opacity-30">
+                            <i class="ri-plant-line text-6xl text-yellow-500"></i>
                         </div>
                     </div>
                 </div>
