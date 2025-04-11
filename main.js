@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (navMenu.style.left === "0%") {
             navMenu.style.left = "-100%";
         } else {
-            navMenu.style.left = "30%";
+            navMenu.style.left = "37%";
             navMenu.style.top="30%";
         }
     });
